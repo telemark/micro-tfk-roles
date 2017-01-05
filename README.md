@@ -3,7 +3,7 @@ Mapping of roles
 
 ## API
 
-### **/list**
+### **/roles**
 
 Lists all roles
 

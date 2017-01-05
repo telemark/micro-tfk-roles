@@ -10,9 +10,7 @@ module.exports = async (request, response) => {
   const {path, query} = await parse(request.url, true)
   const data = request.method === 'POST' ? await json(request) : query
 
-  if (path === '/list') {
-    send(response, 200, listAllRoles())
-  } else if (path === '/list') {
+  if (path === '/roles') {
     send(response, 200, listAllRoles())
   } else {
     const readme = readFileSync('./README.md', 'utf-8')
