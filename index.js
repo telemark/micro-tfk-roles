@@ -5,13 +5,20 @@ const marked = require('marked')
 const { parse } = require('url')
 const { json, send } = require('micro')
 const listAllRoles = require('./lib/list-all-roles')
+const generateId = require('./lib/generate-id')
 
 module.exports = async (request, response) => {
-  const {path, query} = await parse(request.url, true)
+  const {pathname, query} = await parse(request.url, true)
   const data = request.method === 'POST' ? await json(request) : query
 
-  if (path === '/roles') {
+  if (pathname === '/roles') {
     send(response, 200, listAllRoles())
+  } else if (pathname === '/id') {
+    const result = {
+      input: data.input || '',
+      generatedId: generateId(data.input || '')
+    }
+    send(response, 200, result)
   } else {
     const readme = readFileSync('./README.md', 'utf-8')
     const html = marked(readme)
