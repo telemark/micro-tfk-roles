@@ -1,4 +1,31 @@
 {
+  "alle": {
+    "name": "Alle",
+    "groups": [
+      "alle"
+    ]
+  },
+  "administrasjonen": {
+    "name": "Administrasjonen",
+    "groups": [
+      "alle",
+      "administrasjonen"
+    ]
+  },
+  "skole": {
+    "name": "Skole",
+    "groups": [
+      "alle",
+      "skole"
+    ]
+  },
+  "tannhelse": {
+    "name": "Tannhelse",
+    "groups": [
+      "alle",
+      "tannhelse"
+    ]
+  },
   "administrativledelse": {
     "name": "Administrativ ledelse",
     "groups": [

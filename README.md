@@ -11,7 +11,11 @@ Lists all roles
 
 ### **/id**
 
-Generate id from input
+Generate id from input.
+
+Supports ```GET ?input=<input>``` and ```POST {input: <input>}```
+
+
 
 ## License
 [MIT](LICENSE)
