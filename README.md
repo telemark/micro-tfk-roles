@@ -9,13 +9,39 @@ Mapping of roles
 
 Lists all roles
 
+To filter roles by company, department or roles
+
+#### GET
+
+```?company=<company-name>&department=<department-name>&roles=<role1>|<role2>|<role3>```
+
+#### POST
+
+```JavaScript
+{
+  company: '<company-name>',
+  department: '<department-name>',
+  roles: [
+    'role1',
+    'role2',
+    'role3'
+  ]
+}
+```
+
 ### **/id**
 
 Generate id from input.
 
-Supports ```GET ?input=<input>``` and ```POST {input: <input>}```
-
-
+#### GET
+```?input=<input>```
+ 
+#### POST
+```JavaScript
+{
+  input: '<input>'
+}
+```
 
 ## License
 [MIT](LICENSE)
