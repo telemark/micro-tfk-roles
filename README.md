@@ -13,7 +13,9 @@ To filter roles by company, department or roles
 
 #### GET
 
-```?company=<company-name>&department=<department-name>&roles=<role1>|<role2>|<role3>```
+```bash
+?company=<company-name>&department=<department-name>&roles=<role1>|<role2>|<role3>
+```
 
 #### POST
 
@@ -34,9 +36,13 @@ To filter roles by company, department or roles
 Generate id from input.
 
 #### GET
-```?input=<input>```
+
+```bash
+?input=<input>
+```
  
 #### POST
+
 ```JavaScript
 {
   input: '<input>'
