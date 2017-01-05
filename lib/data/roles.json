@@ -89,6 +89,14 @@
       "skole"
     ]
   },
+  "bamblevideregaendeskole": {
+    "name": "Bamble videregående skole",
+    "groups": [
+      "alle",
+      "bamblevideregaendeskole",
+      "skole"
+    ]
+  },
   "bovidaregaandeskule": {
     "name": "Bø vidaregåande skule",
     "groups": [
