@@ -20,7 +20,8 @@
     "setup": "npm install",
     "standard-fix": "standard --fix",
     "start": "NODE_ENV=production micro -p 8080",
-    "dev": "micro -p 3000"
+    "dev": "micro -p 3000",
+    "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
     "microservice",
