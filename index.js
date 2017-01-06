@@ -6,7 +6,7 @@ const { parse } = require('url')
 const { json, send } = require('micro')
 const listAllRoles = require('./lib/list-all-roles')
 const filterRoles = require('./lib/filter-roles')
-const generateId = require('./lib/generate-id')
+const idFromInput = require('./lib/id-from-input')
 
 module.exports = async (request, response) => {
   const {pathname, query} = await parse(request.url, true)
@@ -15,11 +15,7 @@ module.exports = async (request, response) => {
   if (pathname === '/roles') {
     send(response, 200, Object.values(data).length > 0 ? filterRoles(data) : listAllRoles())
   } else if (pathname === '/id') {
-    const result = {
-      input: data.input || '',
-      generatedId: generateId(data.input || '')
-    }
-    send(response, 200, result)
+    send(response, 200, idFromInput(data))
   } else {
     const readme = readFileSync('./README.md', 'utf-8')
     const html = marked(readme)
