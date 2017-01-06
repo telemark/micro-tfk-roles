@@ -35,6 +35,8 @@ To filter roles by company, department or roles
 
 Generate id from input.
 
+Great way to check if your id is in [roles.json](lib/data/roles.json)
+
 #### GET
 
 ```bash
