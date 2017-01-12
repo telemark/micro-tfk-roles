@@ -7,7 +7,7 @@ Mapping of roles
 
 ### **/roles**
 
-Lists all roles
+Returns json with all roles
 
 To filter roles by company, department or roles
 
@@ -30,6 +30,14 @@ To filter roles by company, department or roles
   ]
 }
 ```
+
+### **/companies**
+
+Returns json of all companies.
+
+### **/companies/view**
+
+Lists all companies. Renders to html. 
 
 ### **/id**
 

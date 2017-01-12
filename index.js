@@ -7,13 +7,19 @@ const { json, send } = require('micro')
 const listAllRoles = require('./lib/list-all-roles')
 const filterRoles = require('./lib/filter-roles')
 const idFromInput = require('./lib/id-from-input')
+const renderPage = require('./lib/render-page')
 
 module.exports = async (request, response) => {
   const {pathname, query} = await parse(request.url, true)
   const data = request.method === 'POST' ? await json(request) : query
+  const result = Object.values(data).length > 0 ? filterRoles(data) : listAllRoles()
 
   if (pathname === '/roles') {
-    send(response, 200, Object.values(data).length > 0 ? filterRoles(data) : listAllRoles())
+    send(response, 200, result)
+  } else if (pathname === '/companies') {
+    send(response, 200, result)
+  } else if (pathname === '/companies/view') {
+    send(response, 200, renderPage(result))
   } else if (pathname === '/id') {
     send(response, 200, idFromInput(data))
   } else {
