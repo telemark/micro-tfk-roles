@@ -1,0 +1,428 @@
+[
+  {
+    "id": "bamblevgs.avd.croftholmen",
+    "organizationNumber": "974568179",
+    "name": "Bamble vgs. avd. Croftholmen",
+    "fullName": "Bamble videregående skole avdeling Croftholmen",
+    "alias": "Bamble videregående skole",
+    "shortName": "BAMVS",
+    "groups": [
+      "alle",
+      "bamblevgs.avd.croftholmen",
+      "skole"
+    ]
+  },
+  {
+    "id": "bamblevgs.avd.grasmyr",
+    "organizationNumber": "974568098",
+    "name": "Bamble vgs. avd. Grasmyr",
+    "fullName": "Bamble videregående skole avdeling Grasmyr",
+    "alias": "Bamble videregående skole",
+    "shortName": "BAMVS",
+    "groups": [
+      "alle",
+      "bamblevgs.avd.grasmyr",
+      "skole"
+    ]
+  },
+  {
+    "id": "brekkebyvideregaendeskole",
+    "organizationNumber": "974568047",
+    "name": "Brekkeby videregående skole",
+    "fullName": "Brekkeby videregående skole",
+    "alias": "Skien videregående skole",
+    "shortName": "SKIVS",
+    "groups": [
+      "alle",
+      "brekkebyvideregaendeskole",
+      "skole"
+    ]
+  },
+  {
+    "id": "bovidaregaandeskule",
+    "organizationNumber": "974567997",
+    "name": "Bø vidaregåande skule",
+    "fullName": "Bø vidaregåande skule",
+    "alias": "Bø vidaregåande skule",
+    "shortName": "BOEVS",
+    "groups": [
+      "alle",
+      "bovidaregaandeskule",
+      "skole"
+    ]
+  },
+  {
+    "id": "drangedaltannklinikk",
+    "organizationNumber": "889725192",
+    "name": "Drangedal tannklinikk",
+    "fullName": "Drangedal tannklinikk",
+    "alias": "Drangedal tannklinikk",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "drangedaltannklinikk",
+      "tannhelse"
+    ]
+  },
+  {
+    "id": "fagskolentelemark",
+    "organizationNumber": "874568112",
+    "name": "Fagskolen Telemark",
+    "fullName": "Fagskolen Telemark",
+    "alias": "Fagskolen Telemark",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "fagskolentelemark",
+      "skole"
+    ]
+  },
+  {
+    "id": "fylkestannlegenskontor",
+    "organizationNumber": "974568233",
+    "name": "Fylkestannlegens kontor",
+    "fullName": "Fylkestannlegens kontor",
+    "alias": "Fylkestannlegens kontor",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "fylkestannlegenskontor",
+      "tannhelse"
+    ]
+  },
+  {
+    "id": "hjalmarjohansenvgs",
+    "organizationNumber": "974568071",
+    "name": "Hjalmar Johansen vgs",
+    "fullName": "Hjalmar Johansen videregående skole",
+    "alias": "Hjalmar Johansen vgs",
+    "shortName": "KLOVS",
+    "groups": [
+      "alle",
+      "hjalmarjohansenvgs",
+      "skole"
+    ]
+  },
+  {
+    "id": "karrieresenteret",
+    "organizationNumber": "918123628",
+    "name": "Karrieresenteret",
+    "fullName": "Karrieresenteret",
+    "alias": "Karrieresenteret",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "administrasjonen",
+      "karrieresenteret"
+    ]
+  },
+  {
+    "id": "kragerotannklinikk",
+    "organizationNumber": "973784250",
+    "name": "Kragerø tannklinikk",
+    "fullName": "Kragerø tannklinikk",
+    "alias": "Kragerø tannklinikk",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "kragerotannklinikk",
+      "tannhelse"
+    ]
+  },
+  {
+    "id": "kragerovideregaendeskole",
+    "organizationNumber": "974568004",
+    "name": "Kragerø videregående skole",
+    "fullName": "Kragerø videregående skole",
+    "alias": "Kragerø videregående skole",
+    "shortName": "KRAVS",
+    "groups": [
+      "alle",
+      "kragerovideregaendeskole",
+      "skole"
+    ]
+  },
+  {
+    "id": "nomevgs.avd.lunde",
+    "organizationNumber": "974568063",
+    "name": "Nome vgs. avd. Lunde",
+    "fullName": "Nome videregående skole avdeling Lunde",
+    "alias": "Nome videregående skole",
+    "shortName": "NOMVS",
+    "groups": [
+      "alle",
+      "nomevgs.avd.lunde",
+      "skole"
+    ]
+  },
+  {
+    "id": "nomevgs.avd.sove",
+    "organizationNumber": "974568187",
+    "name": "Nome vgs. avd. Søve",
+    "fullName": "Nome videregående skole avdeling Søve",
+    "alias": "Nome videregående skole",
+    "shortName": "NOMVS",
+    "groups": [
+      "alle",
+      "nomevgs.avd.sove",
+      "skole"
+    ]
+  },
+  {
+    "id": "notoddentannklinikk",
+    "organizationNumber": "974568276",
+    "name": "Notodden tannklinikk",
+    "fullName": "Notodden tannklinikk",
+    "alias": "Notodden tannklinikk",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "notoddentannklinikk",
+      "tannhelse"
+    ]
+  },
+  {
+    "id": "notoddenvideregaendeskole",
+    "organizationNumber": "974568012",
+    "name": "Notodden videregående skole",
+    "fullName": "Notodden videregående skole",
+    "alias": "Notodden videregående skole",
+    "shortName": "NOTVS",
+    "groups": [
+      "alle",
+      "notoddenvideregaendeskole",
+      "skole"
+    ]
+  },
+  {
+    "id": "oppleringsetaten",
+    "organizationNumber": "974567989",
+    "name": "Opplæringsetaten",
+    "fullName": "Opplæringsetaten",
+    "alias": "Opplæringsetaten",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "administrasjonen",
+      "oppleringsetaten"
+    ]
+  },
+  {
+    "id": "porsgrunnvideregaendeskole",
+    "organizationNumber": "974568020",
+    "name": "Porsgrunn videregående skole",
+    "fullName": "Porsgrunn videregående skole",
+    "alias": "Porsgrunn videregående skole",
+    "shortName": "PORVS",
+    "groups": [
+      "alle",
+      "porsgrunnvideregaendeskole",
+      "skole"
+    ]
+  },
+  {
+    "id": "pptoppf.tjenesten",
+    "organizationNumber": "918124136",
+    "name": "PPT/oppf.tjenesten",
+    "fullName": "PPT/oppf.tjenesten",
+    "alias": "PPT/oppf.tjenesten",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "administrasjonen",
+      "pptoppf.tjenesten"
+    ]
+  },
+  {
+    "id": "rjukantannklinikk",
+    "organizationNumber": "989725513",
+    "name": "Rjukan tannklinikk",
+    "fullName": "Rjukan tannklinikk",
+    "alias": "Rjukan tannklinikk",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "rjukantannklinikk",
+      "tannhelse"
+    ]
+  },
+  {
+    "id": "rjukanvideregaendeskole",
+    "organizationNumber": "874568082",
+    "name": "Rjukan videregående skole",
+    "fullName": "Rjukan videregående skole",
+    "alias": "Rjukan videregående skole",
+    "shortName": "RJUVS",
+    "groups": [
+      "alle",
+      "rjukanvideregaendeskole",
+      "skole"
+    ]
+  },
+  {
+    "id": "seljordtannklinikk",
+    "organizationNumber": "989725548",
+    "name": "Seljord tannklinikk",
+    "fullName": "Seljord tannklinikk",
+    "alias": "Seljord tannklinikk",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "seljordtannklinikk",
+      "tannhelse"
+    ]
+  },
+  {
+    "id": "sentraladministrasjonen",
+    "organizationNumber": "974567970",
+    "name": "Sentraladministrasjonen",
+    "fullName": "Sentraladministrasjonen",
+    "alias": "Sentraladministrasjonen",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "administrasjonen",
+      "sentraladministrasjonen"
+    ]
+  },
+  {
+    "id": "siljantannklinikk",
+    "organizationNumber": "989725718",
+    "name": "Siljan tannklinikk",
+    "fullName": "Siljan tannklinikk",
+    "alias": "Siljan tannklinikk",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "siljantannklinikk",
+      "tannhelse"
+    ]
+  },
+  {
+    "id": "skienvideregaendeskole",
+    "organizationNumber": "974568039",
+    "name": "Skien videregående skole",
+    "fullName": "Skien videregående skole",
+    "alias": "Skien videregående skole",
+    "shortName": "SKIVS",
+    "groups": [
+      "alle",
+      "skienvideregaendeskole",
+      "skole"
+    ]
+  },
+  {
+    "id": "skogmovideregaendeskole",
+    "organizationNumber": "974568152",
+    "name": "Skogmo videregående skole",
+    "fullName": "Skogmo videregående skole",
+    "alias": "Skogmo videregående skole",
+    "shortName": "SKOVS",
+    "groups": [
+      "alle",
+      "skogmovideregaendeskole",
+      "skole"
+    ]
+  },
+  {
+    "id": "spesialisttannklinikken",
+    "organizationNumber": "989427792",
+    "name": "Spesialisttannklinikken",
+    "fullName": "Spesialisttannklinikken",
+    "alias": "Spesialisttannklinikken",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "spesialisttannklinikken",
+      "tannhelse"
+    ]
+  },
+  {
+    "organizationNumber": "973784269",
+    "name": "Stathelle tannklinikk",
+    "fullName": "Stathelle tannklinikk",
+    "alias": "Stathelle tannklinikk",
+    "shortName": "",
+    "id": "stathelletannklinikk"
+  },
+  {
+    "organizationNumber": "989725335",
+    "name": "Tannklinikken Midt Telemark",
+    "fullName": "Tannklinikken Midt Telemark",
+    "alias": "Tannklinikken Midt Telemark",
+    "shortName": "",
+    "id": "tannklinikkenmidttelemark"
+  },
+  {
+    "organizationNumber": "974568241",
+    "name": "Tannklinikken Porsgrunn",
+    "fullName": "Tannklinikken Porsgrunn",
+    "alias": "Tannklinikken Porsgrunn",
+    "shortName": "",
+    "id": "tannklinikkenporsgrunn"
+  },
+  {
+    "organizationNumber": "993621099",
+    "name": "Tannklinikken Skien",
+    "fullName": "Tannklinikken Skien",
+    "alias": "Tannklinikken Skien",
+    "shortName": "",
+    "id": "tannklinikkenskien"
+  },
+  {
+    "organizationNumber": "918123334",
+    "name": "TFK areal, transport, reg.utv.",
+    "fullName": "TFK areal, transport, regional utvikling",
+    "alias": "TFK areal, transport, reg.utv.",
+    "shortName": "",
+    "id": "tfkarealtransportreg.utv."
+  },
+  {
+    "organizationNumber": "918123482",
+    "name": "TFK kulturavdeling",
+    "fullName": "TFK kulturavdeling",
+    "alias": "TFK kulturavdeling",
+    "shortName": "",
+    "id": "tfkkulturavdeling"
+  },
+  {
+    "organizationNumber": "989725637",
+    "name": "Treungen tannklinikk",
+    "fullName": "Treungen tannklinikk",
+    "alias": "Treungen tannklinikk",
+    "shortName": "",
+    "id": "treungentannklinikk"
+  },
+  {
+    "organizationNumber": "989725416",
+    "name": "Ulefoss tannklinikk",
+    "fullName": "Ulefoss tannklinikk",
+    "alias": "Ulefoss tannklinikk",
+    "shortName": "",
+    "id": "ulefosstannklinikk"
+  },
+  {
+    "organizationNumber": "974568128",
+    "name": "Vest-Telem. vgs. avd. Seljord",
+    "fullName": "Vest-Telemark videregåande skule avdeling Seljord",
+    "alias": "Vest-Telemark vidaregåande skule",
+    "shortName": "DALVS",
+    "id": "vest-telem.vgs.avd.seljord"
+  },
+  {
+    "organizationNumber": "974568055",
+    "name": "Vest-Telemark vgs. avd. Dalen",
+    "fullName": "Vest-Telemark videregåande skule avdeling Dalen",
+    "alias": "Vest-Telemark vidaregåande skule",
+    "shortName": "DALVS",
+    "id": "vest-telemarkvgs.avd.dalen"
+  },
+  {
+    "organizationNumber": "989725645",
+    "name": "Vinje tannklinikk",
+    "fullName": "Vinje tannklinikk",
+    "alias": "Vinje tannklinikk",
+    "shortName": "Vinje tannklinikk",
+    "id": "vinjetannklinikk"
+  }
+]

@@ -18,6 +18,8 @@
     "coverage": "tap test/**/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install",
+    "update-ids": "node utils/add-ids-to-hrm.js",
+    "verify-ids": "node utils/verify-ids.js",
     "standard-fix": "standard --fix",
     "start": "NODE_ENV=production micro -p 8080",
     "dev": "micro -p 3000",
