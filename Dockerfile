@@ -4,7 +4,7 @@
 #
 ###########################################################
 
-# Setting the base to nodejs 7.4.0
+# Setting the base to nodejs 7.5.0
 FROM node:7.4.0-alpine
 
 # Maintainer

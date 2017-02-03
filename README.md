@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/micro-portalen-roles.svg?branch=master)](https://travis-ci.org/telemark/micro-portalen-roles)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 # micro-tfk-roles
+
 Mapping of roles for portalen
 
 ## API
@@ -60,6 +62,7 @@ Great way to check if your id is in [roles.json](lib/data/roles.json)
 ```
 
 ## License
+
 [MIT](LICENSE)
 
 ![alt text](https://robots.kebabstudios.party/micro-portalen-roles.png "Robohash image of micro-portalen-roles")
