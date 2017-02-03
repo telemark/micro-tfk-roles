@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-roles",
   "description": "Mapping of roles for portalen",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
