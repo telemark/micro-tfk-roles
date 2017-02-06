@@ -14,19 +14,17 @@ module.exports = async (request, response) => {
   const data = request.method === 'POST' ? await json(request) : query
   const result = Object.values(data).length > 0 ? filterRoles(data) : listAllRoles()
 
-  if (pathname === '/roles') {
+  if (!['/', '/companies/view'].includes(pathname)) {
     response.setHeader('Access-Control-Allow-Origin', '*')
     response.setHeader('Access-Control-Allow-Methods', 'GET, POST')
+  }
+  if (pathname === '/roles') {
     send(response, 200, result)
   } else if (pathname === '/companies') {
-    response.setHeader('Access-Control-Allow-Origin', '*')
-    response.setHeader('Access-Control-Allow-Methods', 'GET, POST')
     send(response, 200, result)
   } else if (pathname === '/companies/view') {
     send(response, 200, renderPage(result))
   } else if (pathname === '/id') {
-    response.setHeader('Access-Control-Allow-Origin', '*')
-    response.setHeader('Access-Control-Allow-Methods', 'GET, POST')
     send(response, 200, idFromInput(data))
   } else {
     const readme = readFileSync('./README.md', 'utf-8')

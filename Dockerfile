@@ -5,7 +5,7 @@
 ###########################################################
 
 # Setting the base to nodejs 7.5.0
-FROM node:7.4.0-alpine
+FROM node:7.5.0-alpine
 
 # Maintainer
 MAINTAINER Geir Gåsodden
@@ -23,6 +23,8 @@ WORKDIR "/src"
 
 # Install dependencies
 RUN npm install --production
+
+ENV NODE_ENV production
 
 # Expose 8080
 EXPOSE 8080
