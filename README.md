@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/telemark/micro-portalen-roles.svg?branch=master)](https://travis-ci.org/telemark/micro-portalen-roles)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-# micro-tfk-roles
+# micro-portalen-roles
 
 Mapping of roles for portalen
 
