@@ -56,6 +56,6 @@
   "dependencies": {
     "marked": "0.3.6",
     "micro": "7.0.3",
-    "tfk-unique-array": "1.0.7"
+    "tfk-unique-array": "1.0.8"
   }
 }
