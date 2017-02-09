@@ -3,6 +3,8 @@
 
 # micro-portalen-roles
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-portalen-roles.svg)](https://greenkeeper.io/)
+
 Mapping of roles for portalen
 
 ## API
