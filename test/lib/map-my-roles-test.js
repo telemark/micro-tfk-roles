@@ -1,7 +1,9 @@
 'use strict'
 
-const tap = require('tap')
+const test = require('ava')
 const mapMyRoles = require('../../lib/map-roles')
 const testData = require('./../data/test-data-mapping.json')
 
-tap.equal(JSON.stringify(testData.expected), JSON.stringify(mapMyRoles(testData.testinput)), 'It returns expected results')
+test('It returns expected results from role-mapping', t => {
+  t.deepEqual(testData.expected, mapMyRoles(testData.testinput), 'Mapping OK')
+})

@@ -1,9 +1,11 @@
 'use strict'
 
-const tap = require('tap')
+const test = require('ava')
 const generateId = require('../../lib/generate-id')
 const testData = require('./../data/test-data-generate-id.json')
 
-testData.forEach((item) => {
-  tap.equal(item.expected, generateId(item.input), 'It returns expected result from ' + item.input)
+test('It generates expected Ids', t => {
+  testData.forEach((item) => {
+    t.deepEqual(item.expected, generateId(item.input), `Result from ${item.input} OK`)
+  })
 })

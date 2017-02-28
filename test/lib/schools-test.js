@@ -1,6 +1,6 @@
 'use strict'
 
-const tap = require('tap')
+const test = require('ava')
 const roles = require('../../lib/data/roles.json')
 const generateId = require('../../lib/generate-id')
 const schools = [
@@ -26,7 +26,9 @@ const schools = [
   'Nome vgs. avd. Søve'
 ]
 
-schools.forEach((school) => {
-  let id = generateId(school)
-  tap.ok(roles[id], `${school} got roles`)
+test('Schools ids got roles as expected', t => {
+  schools.forEach((school) => {
+    let id = generateId(school)
+    t.truthy(roles[id], `${school} got roles`)
+  })
 })
