@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.5.0"
+    "node": ">=7.6.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -21,9 +21,8 @@
     "update-ids": "node utils/add-ids-to-hrm.js",
     "verify-ids": "node utils/verify-ids.js",
     "standard-fix": "standard --fix",
-    "start": "micro -p 8080",
-    "dev": "micro",
-    "now-deploy": "npm test && now --npm --alias"
+    "start": "micro",
+    "now-deploy": "npm test && now && now alias"
   },
   "keywords": [
     "microservice",
@@ -40,12 +39,13 @@
     "url": "https://github.com/telemark/micro-portalen-roles/issues"
   },
   "now": {
-    "aliases": [
+    "alias": [
       "roles.portalen.micro.t-fk.no"
     ],
     "env": {
       "NODE_ENV": "production"
-    }
+    },
+    "type": "npm"
   },
   "devDependencies": {
     "coveralls": "2.11.16",
