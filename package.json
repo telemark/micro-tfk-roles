@@ -41,6 +41,7 @@
   },
   "now": {
     "alias": [
+      "roles.portalen.t-fk.win",
       "roles.portalen.micro.t-fk.no"
     ],
     "env": {
