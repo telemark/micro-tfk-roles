@@ -18,7 +18,9 @@ module.exports = async (request, response) => {
     response.setHeader('Access-Control-Allow-Origin', '*')
     response.setHeader('Access-Control-Allow-Methods', 'GET, POST')
   }
-  if (pathname === '/roles') {
+  if (request.method === 'OPTIONS') {
+    response.end()
+  } else if (pathname === '/roles') {
     send(response, 200, result)
   } else if (pathname === '/companies') {
     send(response, 200, result)
