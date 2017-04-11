@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-roles",
   "description": "Mapping of roles for portalen",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.7.1"
+    "node": ">=7.8.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -39,6 +39,7 @@
   "bugs": {
     "url": "https://github.com/telemark/micro-portalen-roles/issues"
   },
+  "homepage": "https://github.com/telemark/micro-portalen-roles",
   "now": {
     "alias": [
       "roles.portalen.t-fk.win",
