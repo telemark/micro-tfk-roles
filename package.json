@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-roles",
   "description": "Mapping of roles for portalen",
-  "version": "1.4.24",
+  "version": "1.4.25",
   "license": "MIT",
   "private": true,
   "author": {
@@ -54,7 +54,7 @@
     "axios": "0.16.2",
     "ava": "0.19.1",
     "nsp": "2.8.0",
-    "nyc": "11.2.1",
+    "nyc": "11.1.0",
     "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
