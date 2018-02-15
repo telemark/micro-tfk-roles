@@ -64,7 +64,7 @@
     "test-listen": "1.1.0"
   },
   "dependencies": {
-    "markdown-it": "8.4.0",
+    "markdown-it": "8.4.1",
     "micro": "9.0.2",
     "tfk-unique-array": "1.0.11"
   }
