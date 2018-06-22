@@ -1,5 +1,3 @@
-'use strict'
-
 const fs = require('fs')
 const hrm = require('../lib/data/hrm.json')
 const generateId = require('../lib/generate-id')

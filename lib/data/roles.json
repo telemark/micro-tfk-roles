@@ -154,6 +154,14 @@
       "tannhelse"
     ]
   },
+  "fyresdaltannklinkk": {
+    "name": "Fyresdal tannklinikk",
+    "groups": [
+      "alle",
+      "fyresdaltannklinkk",
+      "tannhelse"
+    ]
+  },
   "hjalmarjohansenvgs": {
     "name": "Hjalmar Johansen vgs",
     "groups": [

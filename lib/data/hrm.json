@@ -91,6 +91,19 @@
     ]
   },
   {
+    "id": "fyresdaltannklinikk",
+    "organizationNumber": "920728030",
+    "name": "Fyresdal tannklinkk",
+    "fullName": "Fyresdal tannklinkk",
+    "alias": "Fyresdal tannklinkk",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "fyresdaltannklinikk",
+      "tannhelse"
+    ]
+  },
+  {
     "id": "hjalmarjohansenvgs",
     "organizationNumber": "974568071",
     "name": "Hjalmar Johansen vgs",
