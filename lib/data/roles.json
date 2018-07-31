@@ -348,6 +348,13 @@
       "regionaletaten"
     ]
   },
+  "telemarkregionalpark": {
+    "name": "Telemark Regionalpark",
+    "groups": [
+      "alle",
+      "regionalpark"
+    ]
+  },
   "rjukantannklinikk": {
     "name": "Rjukan tannklinikk",
     "groups": [
