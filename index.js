@@ -8,7 +8,7 @@ const idFromInput = require('./lib/id-from-input')
 const renderPage = require('./lib/render-page')
 
 module.exports = async (request, response) => {
-  const {pathname, query} = await parse(request.url, true)
+  const { pathname, query } = await parse(request.url, true)
   const data = request.method === 'POST' ? await json(request) : query
   const result = Object.values(data).length > 0 ? filterRoles(data) : listAllRoles()
 
