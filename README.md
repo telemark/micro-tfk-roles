@@ -64,5 +64,3 @@ Great way to check if your id is in [roles.json](lib/data/roles.json)
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of micro-portalen-roles](https://robots.kebabstudios.party/micro-portalen-roles.png "Robohash image of micro-portalen-roles")
