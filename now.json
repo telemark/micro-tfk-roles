@@ -1,0 +1,13 @@
+{
+  "name": "micro-portalen-roles",
+  "alias": [
+    "roles.portalen.win"
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  }
+}
