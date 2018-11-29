@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-roles",
   "description": "Mapping of roles for portalen",
-  "version": "1.5.5",
+  "version": "2.0.0",
   "license": "MIT",
   "private": true,
   "author": {
