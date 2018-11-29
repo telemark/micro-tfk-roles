@@ -359,6 +359,19 @@
     "id": "stathelletannklinikk"
   },
   {
+    "id": "talenthuset",
+    "organizationNumber": "921766076",
+    "name": "Talenthuset",
+    "fullName": "Talenthuset",
+    "alias": "Talenthuset",
+    "shortName": "",
+    "groups": [
+      "alle",
+      "administrasjonen",
+      "talenthuset"
+    ]
+  },
+  {
     "organizationNumber": "989725335",
     "name": "Tannklinikken Midt Telemark",
     "fullName": "Tannklinikken Midt Telemark",

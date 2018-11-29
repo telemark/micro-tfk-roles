@@ -594,5 +594,13 @@
       "administrasjonen",
       "sentraladministrasjon"
     ]
+  },
+  "talenthuset": {
+    "name": "talenthuset",
+    "groups": [
+      "alle",
+      "administrasjonen",
+      "talenthuset"
+    ]
   }
 }
