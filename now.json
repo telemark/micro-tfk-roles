@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "micro-portalen-roles",
   "alias": [
     "roles.portalen.win"
@@ -7,8 +7,12 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "type": "docker",
-  "features": {
-    "cloud": "v2"
-  }
+  "builds": [
+    { "src": "README.md", "use": "@now/md"},
+    { "src": "index.js", "use": "@now/node"}
+  ],
+  "routes": [
+    { "src": "/", "dest": "/README.html" },
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
 }

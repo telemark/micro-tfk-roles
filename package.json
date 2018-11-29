@@ -52,7 +52,6 @@
     "test-listen": "1.1.0"
   },
   "dependencies": {
-    "markdown-it": "8.4.2",
     "micro": "9.3.3",
     "tfk-unique-array": "1.0.11"
   }

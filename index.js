@@ -1,5 +1,3 @@
-const readFileSync = require('fs').readFileSync
-const md = require('markdown-it')()
 const { parse } = require('url')
 const { json, send } = require('micro')
 const listAllRoles = require('./lib/list-all-roles')
@@ -29,7 +27,27 @@ module.exports = async (request, response) => {
   } else if (pathname === '/id') {
     send(response, 200, idFromInput(data))
   } else {
-    const readme = readFileSync('./README.md', 'utf-8')
-    send(response, 200, md.render(readme))
+    const readme = `
+    micro-portalen-roles
+    **************************
+
+    GET /roles?company=<company-name>&department=<department-name>&roles=<role1>|<role2>|<role3>
+
+    POST /roles
+    {
+      company: '<company-name>',
+      department: '<department-name>',
+      roles: [
+        'role1',
+        'role2',
+        'role3'
+      ]
+    }
+
+    License: MIT
+
+    Repository: https://github.com/telemark/micro-portalen-roles
+    `
+    send(response, 200, readme)
   }
 }
