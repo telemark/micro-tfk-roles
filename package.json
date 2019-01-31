@@ -53,6 +53,6 @@
   },
   "dependencies": {
     "micro": "9.3.3",
-    "tfk-unique-array": "1.0.11"
+    "tfk-unique-array": "2.0.0"
   }
 }
