@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "micro-portalen-roles",
+  "scope": "kommunikasjon",
   "alias": [
     "roles.portalen.win"
   ],
@@ -8,11 +9,23 @@
     "NODE_ENV": "production"
   },
   "builds": [
-    { "src": "README.md", "use": "@now/md"},
-    { "src": "index.js", "use": "@now/node"}
+    {
+      "src": "README.md",
+      "use": "@now/md"
+    },
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
   ],
   "routes": [
-    { "src": "/", "dest": "/README.html" },
-    { "src": "/(.*)", "dest": "/index.js" }
+    {
+      "src": "/",
+      "dest": "/README.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
   ]
 }
