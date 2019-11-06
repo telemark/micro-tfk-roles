@@ -28,7 +28,7 @@ const schools = [
 
 test('Schools ids got roles as expected', t => {
   schools.forEach((school) => {
-    let id = generateId(school)
+    const id = generateId(school)
     t.truthy(roles[id], `${school} got roles`)
   })
 })

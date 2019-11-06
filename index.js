@@ -1,13 +1,13 @@
-const { parse } = require('url')
-const { json, send } = require('micro')
+const { send } = require('micro')
 const listAllRoles = require('./lib/list-all-roles')
 const filterRoles = require('./lib/filter-roles')
 const idFromInput = require('./lib/id-from-input')
 const renderPage = require('./lib/render-page')
 
 module.exports = async (request, response) => {
-  const { pathname, query } = await parse(request.url, true)
-  const data = request.method === 'POST' ? await json(request) : query
+  const { pathname } = request.url
+  console.log(pathname)
+  const data = request.method === 'POST' ? await request.body : await request.query
   const result = Object.values(data).length > 0 ? filterRoles(data) : listAllRoles()
 
   if (!['/', '/companies/view'].includes(pathname)) {
@@ -27,27 +27,7 @@ module.exports = async (request, response) => {
   } else if (pathname === '/id') {
     send(response, 200, idFromInput(data))
   } else {
-    const readme = `
-    micro-portalen-roles
-    **************************
-
-    GET /roles?company=<company-name>&department=<department-name>&roles=<role1>|<role2>|<role3>
-
-    POST /roles
-    {
-      company: '<company-name>',
-      department: '<department-name>',
-      roles: [
-        'role1',
-        'role2',
-        'role3'
-      ]
-    }
-
-    License: MIT
-
-    Repository: https://github.com/telemark/micro-portalen-roles
-    `
-    send(response, 200, readme)
+    response.status(404)
+    response.send('not found')
   }
 }
