@@ -61,6 +61,14 @@ Great way to check if your id is in [roles.json](lib/data/roles.json)
 }
 ```
 
+## Development
+
+Start the development server
+
+```
+$ npm run dev
+```
+
 ## License
 
 [MIT](LICENSE)
