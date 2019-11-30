@@ -69,6 +69,14 @@ Start the development server
 $ npm run dev
 ```
 
+## Deploy
+
+Run the deploy script
+
+```
+$ npm run deploy
+```
+
 ## License
 
 [MIT](LICENSE)
